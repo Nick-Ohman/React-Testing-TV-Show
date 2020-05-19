@@ -87,8 +87,9 @@ test("renders once loaded", async () => {
       userEvent.click(selection, 'Select a season')
     const season2 = getByText(/season 2/i);
     userEvent.click(season2);
-      debug()
-      expect(getAllByTestId(/episodes/i)).toBeVisible();
+    const alleps = getAllByTestId(/episodes/i)
+    console.log(alleps.length)
+      expect(alleps).toHaveLength(9);
     });
   });
 
