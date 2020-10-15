@@ -1,6 +1,6 @@
 # React Testing TV Show
 
-In this project I learned to test react 
+In this project I learned to test react components.
 
 ## Advanced Web Applications ➡ Testing React
 
